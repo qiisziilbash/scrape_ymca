@@ -9,9 +9,8 @@ from google.oauth2 import credentials as oauth_credentials
 from google_auth_oauthlib import flow
 from googleapiclient import discovery
 
-
+date = "2023-07-14"
 location = "carondeletpark"
-date = "2023-07-13"
 KEYWORD = "Swim"
 scopes = ["https://www.googleapis.com/auth/calendar"]
 calendar_id = "dc19c79d0c85db398ce294cb1a66256de1828e905e7bea388279aa1c8289f2cc@group.calendar.google.com"
