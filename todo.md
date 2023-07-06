@@ -1,4 +1,4 @@
 - [ ] Automate
 - [ ] Add error handling
 - [x] Add yoga
-- [ ] Add South City
+- [x] Add South City

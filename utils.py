@@ -20,6 +20,7 @@ CALENDAR_SCOPES = ["https://www.googleapis.com/auth/calendar"]
 
 def scrape_events(url, date, sport_type):
     logger.info("Scraping the events from the given url ...")
+    logger.info(url)
     url_reader = urllib.request.urlopen(url)
     schedules_html = url_reader.read().decode("utf8")
     url_reader.close()
