@@ -1,3 +1,4 @@
 - [ ] Automate
 - [ ] Add error handling
-- [ ] Add yoga and other locs
+- [x] Add yoga
+- [ ] Add South City
